@@ -53,33 +53,29 @@
   </g>
 
   <!-- RIGHT COLUMN: feature checklist -->
-  <g transform="translate(490, 50)">
-    <text x="0" y="0" class="feature" font-weight="700" fill="#e8a838" font-size="13" letter-spacing="0.8">WHAT IT COVERS</text>
+  <g transform="translate(620, 50)">
+    <text x="120" y="0" class="feature" font-weight="700" fill="#e8a838" font-size="13" letter-spacing="0.8" text-anchor="middle">WHAT IT COVERS</text>
 
     <!-- 6 bullets -->
-    <g transform="translate(0, 20)">
+    <g transform="translate(0, 28)">
       <circle cx="6" cy="6" r="4" fill="#e8a838"/>
       <text x="20" y="10" class="feature">Cash Flow &amp; Budgeting</text>
     </g>
-    <g transform="translate(0, 42)">
+    <g transform="translate(0, 52)">
       <circle cx="6" cy="6" r="4" fill="#e8a838"/>
       <text x="20" y="10" class="feature">Debt Payoff Strategy</text>
     </g>
-    <g transform="translate(0, 64)">
+    <g transform="translate(0, 76)">
       <circle cx="6" cy="6" r="4" fill="#e8a838"/>
       <text x="20" y="10" class="feature">Retirement Planning</text>
     </g>
-    <g transform="translate(200, 20)">
+    <g transform="translate(0, 100)">
       <circle cx="6" cy="6" r="4" fill="#e8a838"/>
       <text x="20" y="10" class="feature">FIRE Calculator</text>
     </g>
-    <g transform="translate(200, 42)">
+    <g transform="translate(0, 124)">
       <circle cx="6" cy="6" r="4" fill="#e8a838"/>
       <text x="20" y="10" class="feature">Tax Optimization</text>
-    </g>
-    <g transform="translate(200, 64)">
-      <circle cx="6" cy="6" r="4" fill="#e8a838"/>
-      <text x="20" y="10" class="feature">Net Worth Tracking</text>
     </g>
   </g>
 
