@@ -74,6 +74,10 @@ If the user provides incomplete data, use reasonable defaults but flag them in t
 
 Launch all 5 agents in a single message with parallel Task tool calls.
 
+Each agent is defined in `agents/` (installed to `~/.claude/agents/`). Call the Task tool with `subagent_type` set to the agent name (`finance-cashflow`, `finance-debt`, `finance-investments`, `finance-retirement`, `finance-protection`) and pass the prompt below with the user's numbers filled in. If those agent types aren't available (for example, the skills were loaded without the installer), use `general-purpose` with the same prompt. Each agent's final message starts with `CATEGORY:` and `SCORE:` lines; read the scores from there for Phase 3.
+
+If the Task tool isn't available at all, run the five analyses yourself one after another using the same prompts, then continue to Phase 3.
+
 #### Agent 1: finance-cashflow
 
 ```
