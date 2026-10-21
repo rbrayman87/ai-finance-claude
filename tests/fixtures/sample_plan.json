@@ -1,0 +1,283 @@
+{
+  "client_name": "Test Client — Alex Morgan",
+  "as_of": "October 21, 2026",
+  "health_score": 68,
+  "grade": "B-",
+  "signal": "Healthy — Minor Tune-Up",
+  "executive_summary": "Jordan, age 38, has a solid foundation: positive cash flow, retirement contributions in place, and term life insurance. The biggest leverage points are accelerating credit card payoff (saving ~$4,800 in interest) and raising the 401(k) deferral from 8% to 12% to close the retirement gap by age 65. Estate documents are missing — a critical fix.",
+  "categories": {
+    "cash_flow": 78,
+    "debt": 52,
+    "investments": 71,
+    "retirement": 64,
+    "protection": 58
+  },
+  "category_notes": {
+    "cash_flow": "21% savings rate is above average. Housing at 28% of income is healthy.",
+    "debt": "Credit card balance at 22% APR is dragging the score. Avalanche payoff in 14 months.",
+    "investments": "Equity-heavy allocation suits age 38. Slight overweight in US large-cap.",
+    "retirement": "On track for ~85% of target at age 65. Boosting contributions closes the gap.",
+    "protection": "Term life is good. Disability coverage is partial. No will or POA on file."
+  },
+  "cash_flow": {
+    "monthly_income": 9200,
+    "expenses": [
+      [
+        "Housing (mortgage, tax, ins.)",
+        2580
+      ],
+      [
+        "Utilities & internet",
+        290
+      ],
+      [
+        "Groceries",
+        720
+      ],
+      [
+        "Dining & entertainment",
+        420
+      ],
+      [
+        "Transportation",
+        540
+      ],
+      [
+        "Insurance (health, auto)",
+        480
+      ],
+      [
+        "Subscriptions",
+        95
+      ],
+      [
+        "Personal / shopping",
+        380
+      ],
+      [
+        "Childcare / education",
+        620
+      ],
+      [
+        "Debt payments (min)",
+        360
+      ],
+      [
+        "Misc / buffer",
+        200
+      ]
+    ],
+    "commentary": "Dining + subscriptions ($515/mo) is the easiest place to recapture $150–$200/month and redirect it to debt payoff or retirement contributions."
+  },
+  "debt": {
+    "strategy": "Avalanche (highest APR first)",
+    "payoff_months": 38,
+    "total_interest": 7420,
+    "accounts": [
+      {
+        "name": "Credit Card — Chase Sapphire",
+        "balance": 8400,
+        "apr": 22.0,
+        "min_payment": 220,
+        "order": 1
+      },
+      {
+        "name": "Auto Loan — Toyota",
+        "balance": 14200,
+        "apr": 5.9,
+        "min_payment": 380,
+        "order": 3
+      },
+      {
+        "name": "Student Loan — Federal",
+        "balance": 18600,
+        "apr": 6.2,
+        "min_payment": 210,
+        "order": 2
+      }
+    ]
+  },
+  "investments": {
+    "total_value": 184000,
+    "allocation": [
+      {
+        "name": "US Stocks",
+        "pct": 58,
+        "target_pct": 50
+      },
+      {
+        "name": "Intl Stocks",
+        "pct": 14,
+        "target_pct": 20
+      },
+      {
+        "name": "Bonds",
+        "pct": 18,
+        "target_pct": 20
+      },
+      {
+        "name": "Real Estate (REIT)",
+        "pct": 6,
+        "target_pct": 7
+      },
+      {
+        "name": "Cash / MM",
+        "pct": 4,
+        "target_pct": 3
+      }
+    ],
+    "commentary": "US large-cap is overweight by 8 percentage points. Rebalance toward international and bonds to reduce single-country concentration risk."
+  },
+  "retirement": {
+    "current_age": 38,
+    "retirement_age": 65,
+    "current_balance": 184000,
+    "target_balance": 1450000,
+    "monthly_contribution": 920,
+    "scenarios": [
+      {
+        "name": "Current path",
+        "monthly": 920,
+        "projected": 1230000,
+        "verdict": "Short ~$220k"
+      },
+      {
+        "name": "+ $200/mo",
+        "monthly": 1120,
+        "projected": 1402000,
+        "verdict": "On track"
+      },
+      {
+        "name": "+ $400/mo",
+        "monthly": 1320,
+        "projected": 1574000,
+        "verdict": "Ahead"
+      },
+      {
+        "name": "Max 401(k)",
+        "monthly": 1958,
+        "projected": 1948000,
+        "verdict": "Exceeds target"
+      }
+    ],
+    "commentary": "Bumping the 401(k) deferral from 8% to 12% closes the gap and captures additional employer match if the plan allows. Run /finance-retirement to model spousal contributions."
+  },
+  "protection": {
+    "items": [
+      {
+        "name": "Term Life Insurance",
+        "status": "Good",
+        "recommendation": "$1M policy in place — review every 3 years."
+      },
+      {
+        "name": "Disability Insurance",
+        "status": "Partial",
+        "recommendation": "Employer LTD covers 60%. Consider supplemental own-occupation policy."
+      },
+      {
+        "name": "Health Insurance",
+        "status": "Good",
+        "recommendation": "HDHP + HSA — max HSA contributions for triple tax benefit."
+      },
+      {
+        "name": "Auto / Home",
+        "status": "Good",
+        "recommendation": "Umbrella liability of $1M is recommended given net worth."
+      },
+      {
+        "name": "Will / Estate Plan",
+        "status": "Missing",
+        "recommendation": "CRITICAL — draft will, POA, and healthcare directive this quarter."
+      },
+      {
+        "name": "Emergency Fund",
+        "status": "Partial",
+        "recommendation": "$11k of $24k target (4 months expenses). Build to 6 months."
+      }
+    ],
+    "commentary": "Missing estate documents are the single highest-impact protection gap. An online platform (e.g., trust & will services) can deliver a basic will + POA in under 60 minutes."
+  },
+  "action_items": [
+    {
+      "action": "Draft will, POA, and healthcare directive",
+      "category": "Protection",
+      "priority": "High",
+      "impact": "Critical"
+    },
+    {
+      "action": "Increase 401(k) deferral from 8% to 12%",
+      "category": "Retirement",
+      "priority": "High",
+      "impact": "High"
+    },
+    {
+      "action": "Throw $400/mo extra at Chase credit card (22% APR)",
+      "category": "Debt",
+      "priority": "High",
+      "impact": "High"
+    },
+    {
+      "action": "Build emergency fund from $11k to $24k",
+      "category": "Cash Flow",
+      "priority": "High",
+      "impact": "High"
+    },
+    {
+      "action": "Rebalance portfolio: trim US large-cap, add international",
+      "category": "Investments",
+      "priority": "Med",
+      "impact": "Med"
+    },
+    {
+      "action": "Max HSA contributions ($4,150 individual / $8,300 family)",
+      "category": "Tax",
+      "priority": "Med",
+      "impact": "Med"
+    },
+    {
+      "action": "Add $1M umbrella liability policy",
+      "category": "Protection",
+      "priority": "Med",
+      "impact": "Med"
+    },
+    {
+      "action": "Cancel 3 unused subscriptions (save ~$45/mo)",
+      "category": "Cash Flow",
+      "priority": "Low",
+      "impact": "Low"
+    },
+    {
+      "action": "Open Roth IRA for spouse (backdoor if needed)",
+      "category": "Retirement",
+      "priority": "Med",
+      "impact": "Med"
+    },
+    {
+      "action": "Set up automated 529 plan contributions ($200/mo)",
+      "category": "Goals",
+      "priority": "Low",
+      "impact": "Med"
+    }
+  ],
+  "ninety_day_plan": {
+    "month_1": [
+      "Open online will service account and complete will + POA",
+      "Set up auto-transfer of $400/mo to credit card payoff",
+      "Cancel 3 unused subscriptions",
+      "Open HSA if not already open"
+    ],
+    "month_2": [
+      "Increase 401(k) deferral to 12% via HR portal",
+      "Rebalance brokerage to target allocation",
+      "Apply for $1M umbrella liability policy",
+      "Open spousal Roth IRA"
+    ],
+    "month_3": [
+      "Auto-set $500/mo to emergency fund until $24k",
+      "Set up 529 plan with $200/mo auto-contribution",
+      "Apply for supplemental disability insurance",
+      "Schedule annual review reminder"
+    ],
+    "after_90_days": "Re-run /finance to see updated Financial Health Score. Most clients executing this plan move from B- to B+ or A- in 90 days."
+  }
+}
