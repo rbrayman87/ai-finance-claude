@@ -47,13 +47,13 @@ It does not replace a fiduciary advisor for execution, but it gives you the **di
 **One-command install (recommended):**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-finance-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rbrayman87/ai-finance-claude/main/install.sh | bash
 ```
 
 **Local install:**
 
 ```bash
-git clone https://github.com/zubair-trabzada/ai-finance-claude.git
+git clone https://github.com/rbrayman87/ai-finance-claude.git
 cd ai-finance-claude
 ./install.sh
 ```
@@ -208,56 +208,9 @@ ai-finance-claude/
 
 ---
 
-## 💼 Want to Sell This as a Service?
-
-This tool is purpose-built so that anyone in our community can offer **professional financial planning services** as a side business or full agency — without needing a CFP license to do basic diagnostic and education work (always refer execution to licensed professionals).
-
-**Pricing benchmarks community members are charging:**
-
-| Deliverable | Typical Price |
-| --- | --- |
-| One-time Financial Health Report (PDF) | **$500 – $1,500** |
-| Quarterly review + updated plan | **$1,000 – $2,000/quarter** |
-| Annual financial check-up + accountability calls | **$2,000 – $5,000/year** |
-| Couples financial planning package | **$1,500 – $3,000** |
-| Pre-retirement glide-path package | **$2,000 – $4,000** |
-
-**The math:** ten $1,000 reports per month = **$10,000/month in recurring service income**, delivered in minutes with this tool.
-
-### 👉 Join the AI Workshop community to get:
-
-- ✅ Step-by-step **client acquisition playbook** (cold outreach scripts, LinkedIn templates)
-- ✅ **Pricing & packaging guides** for financial planning services
-- ✅ **Compliance disclaimers** and engagement letter templates
-- ✅ **Sales scripts** for the discovery call → paid engagement conversion
-- ✅ **Done-for-you marketing assets** (landing pages, lead magnets, email sequences)
-- ✅ Direct access to the creator and the community
-
-### 🔗 [**Join the AI Workshop → skool.com/aiworkshop**](https://skool.com/aiworkshop)
-
----
-
-## 🔗 Related Tools
-
-Part of the **"Build and Sell with Claude Code"** series:
-
-| Repo | What It Does |
-| --- | --- |
-| [ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) | AI Marketing Suite — full marketing audits & content |
-| [ai-sales-team-claude](https://github.com/zubair-trabzada/ai-sales-team-claude) | AI Sales Team — prospect research, outreach, follow-ups |
-| [ai-legal-claude](https://github.com/zubair-trabzada/ai-legal-claude) | AI Legal Assistant — contract review, NDA, ToS, privacy |
-| [ai-reputation-claude](https://github.com/zubair-trabzada/ai-reputation-claude) | AI Reputation Manager — review response, crisis playbooks |
-| [ai-ads-claude](https://github.com/zubair-trabzada/ai-ads-claude) | AI Ads Strategist — full ad strategy, hooks, copy, funnels |
-| [ai-trading-claude](https://github.com/zubair-trabzada/ai-trading-claude) | AI Trading Analyst — stock analysis, options, sectors |
-| [ai-crypto-claude](https://github.com/zubair-trabzada/ai-crypto-claude) | AI Crypto Analyst — token analysis, DeFi, on-chain |
-| [ai-realestate-claude](https://github.com/zubair-trabzada/ai-realestate-claude) | AI Real Estate Analyst — property analysis, market, flip |
-| [dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude) | DataForSEO toolkit — keyword research, rank tracking, backlinks |
-
----
-
 ## 📜 License
 
-[MIT License](LICENSE) — © 2026 Zubair Trabzada. Free to use, modify, and resell as a service.
+[MIT License](LICENSE). Originally created by Zubair Trabzada ([zubair-trabzada/ai-finance-claude](https://github.com/zubair-trabzada/ai-finance-claude)); this copy is maintained by [rbrayman87](https://github.com/rbrayman87).
 
 ---
 

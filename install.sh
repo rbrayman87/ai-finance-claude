@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # AI Personal Finance Advisor - Installer
-# Repo: zubair-trabzada/ai-finance-claude
+# Repo: rbrayman87/ai-finance-claude
 #
 # Local install:  ./install.sh
-# Remote install: curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-finance-claude/main/install.sh | bash
+# Remote install: curl -fsSL https://raw.githubusercontent.com/rbrayman87/ai-finance-claude/main/install.sh | bash
 
 set -e
 
@@ -17,7 +17,7 @@ MAGENTA='\033[0;35m'
 BOLD='\033[1m'
 NC='\033[0m'
 
-REPO="zubair-trabzada/ai-finance-claude"
+REPO="rbrayman87/ai-finance-claude"
 BRANCH="main"
 RAW_BASE="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
 TARBALL_URL="https://github.com/${REPO}/archive/refs/heads/${BRANCH}.tar.gz"
