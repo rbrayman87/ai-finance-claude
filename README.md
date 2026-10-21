@@ -201,7 +201,12 @@ ai-finance-claude/
 │   ├── finance-compare/
 │   ├── finance-screen/
 │   └── finance-report-pdf/
-├── agents/                          # parallel sub-agents
+├── agents/                          # parallel sub-agents used by /finance-analyze
+│   ├── finance-cashflow.md
+│   ├── finance-debt.md
+│   ├── finance-investments.md
+│   ├── finance-retirement.md
+│   └── finance-protection.md
 └── scripts/
     └── generate_finance_pdf.py      # ReportLab PDF generator
 ```
